@@ -50,7 +50,7 @@ if (differenza > 0) {
     risultatoDifferenza.innerHTML += `<br><strong>Le liste hanno lo stesso numero di elementi, non faccio nulla.`
 }
 
-// SE LA SECONDA LISTA E' PIU' LUNGA, POPOLA LA SECONDA LISTA FINO AL NUMERO DI ELEMENTI MANCANTI 
+// SE LA SECONDA LISTA E' PIU' LUNGA, POPOLA LA PRIMA LISTA FINO AL NUMERO DI ELEMENTI MANCANTI 
 if (differenza2 > 0) {
     for (let k = 0; k < differenza2; k++) {
         let creaNumeri = Math.floor(Math.random() * 100) + 1;
