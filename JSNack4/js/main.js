@@ -56,6 +56,6 @@ if (differenza2 > 0) {
         let creaNumeri = Math.floor(Math.random() * 100) + 1;
         PrimaLista.push(creaNumeri);
     }
-    console.log(PrimaLista)
+    // console.log(PrimaLista)
     risultatoDifferenza.innerHTML += `<br><strong>La differenza è di ${differenza2} numeri.</strong> Creo altrettanti numeri per la Prima Lista. Eccola aggiornata: ${PrimaLista}`;
 }

@@ -25,8 +25,8 @@ let somma = 0;
 for (let y = 0; y < listaNumeri.length; y++) {
     let currentNumber = listaNumeri[y];
 
-    // SOMMO SOLO SE IL NUMERO E' DISPARI
-    if (currentNumber % 2 != 0) {
+    // SOMMO SOLO SE IL NUMERO E' IN POSIZIONE DISPARI NELL'INDICE
+    if (y % 2 != 0) {
         somma += currentNumber;
     }
 }
